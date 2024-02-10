@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Formulário</title>
+	</head>
+	<body><font face="arial" color="black">
+		<fieldset>
+			<table>
+				<legend>Cadastro</legend>
+				<form>
+					<tr>
+						<td rowspan="7">
+							<img src="dados.jpg" width="100" height="100">
+						</td>
+						<td>Nome:</td>
+						<td>
+							<input type="text" name="nome" placeholder="Digite seu nome completo" size="40">
+						</td>
+					</tr>
+				<tr>
+						<td>Nascimento:</td>
+						<td>
+							<input type="date" name="data">
+						</td>
+					<td>Estado Nasc:</td>
+					<td>
+						<input type="text" name="cidade" placeholder="Estado onde nasceu">
+					</td>
+				</tr>
+					<tr>
+						<td>Sexo:</td>
+						<td>
+							<input type="radio" name="sexo" value="masculino"> Masculino
+							<input type="radio" name="sexo" value="feminino"> Feminino
+						</td>
+					</tr>
+					<tr>
+						<td>Formação:</td>
+						<td>
+							<select name="Formação">
+								<option value="&nbsp;"></option>
+								<option value="Ensino Fundamental Completo">Ensino Fundamental Completo:</option>
+								<option value="Ensino Médio Completo">Ensino Médio Completo</option>
+								<option value="Ensino Superior Completo">Ensino Superior Completo</option>
+							</select>
+						</td>
+						<td>Profissão:</td>
+						<td>
+							<select name="Profissão">
+								<option value="&nbsp;"></option>
+								<option value="Analista de Sistemas">Analista de Sistemas</option>
+								<option value="Engenheiro eletronico">Engenheiro eletronico</option>
+								<option value="Administrador">Administrador</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>CPF:</td>
+						<td>
+							<input type="CPF" name="cpf" placeholder="000.000.000-00">
+						</td>
+					</tr>
+					<tr>
+						<td>Rg:</td>
+						<td>
+							<input type="number" name="rg" placeholder="000.000.000-0">
+						</td>
+					<tr>
+						<td>
+							Foto 3x4:
+						</td>
+						<td>
+							<input type="file" name="image">
+						</td>
+					</tr>
+				</form>
+			</table>
+		</fieldset>
+		<fieldset>
+			<legend>Contato:</legend>
+			<table>
+				<form>
+					<tr>
+						<td rowspan="7">
+							<img src="contato.png" width="100" height="100">
+						</td>
+					</tr>
+					<tr>
+						<td>Email:</td>
+						<td>
+							<input type="email" name="email" placeholder="meuemailprofissional@gmail.com">
+						</td>
+					</tr>
+					<tr>
+						<td>Número:</td>
+						<td>
+							<input type="number" name="numero" placeholder="(DD)90011-2233">
+						</td>
+					</tr>
+					<tr>
+						<td>Telefone:</td>
+						<td>
+							<input type="number" name="telefone" placeholder="(DD)4444-2222">
+						</td>
+					</tr>
+					<tr>
+						<td>Skype:</td>
+						<td>
+							<input type="text" name="skype" placeholder="meuskypeatual@gmail.com">
+						</td>
+						<td>LinkedIN:</td>
+						<td>
+							<input type="text" name="LinkedIN" placeholder="meulinkedIN@gmail.com">
+						</td>
+					</tr>
+					<tr>
+						<td>Email secundario:</td>
+						<td>
+							<input type="email" name="email">
+						</td>
+					</tr>
+					<tr>
+						<td>Tel Recado:</td>
+						<td>
+							<input type="number" name="numero" placeholder="(DD)1111-0000">
+						</td>
+					</tr>
+				</form>
+			</table>
+		</fieldset>
+		<fieldset>
+			<legend>Endereço:</legend>
+			<table>
+				<form>
+					<tr>
+						<td rowspan="8">
+							<img src="casa.png" sizes="100" height="70">
+						</td>
+					</tr>
+					<tr>
+						<td>Rua:</td>
+						<td>
+							<input type="text" name="Endereço" placeholder="Rua São João">
+						</td>
+					<td>Número:</td>
+						<td align="center">
+							<input type="number" name="numero" placeholder="00">
+						</td>
+				</tr>
+					<tr>
+						<td>CEP:</td>
+						<td>
+							<input type="CEP" name="cep" placeholder="00000-000">
+						</td>
+						<td>Cidade:</td>
+						<td>
+							<input type="text" name="cidade" placeholder="Digite sua cidade">
+						</td>
+					</tr>
+					<tr>
+						<td>Bairro:</td>
+						<td>
+							<input type="text" name="bairro" placeholder="Agora seu bairro">
+						</td>
+						<td>Ponto de Referência</td>
+						<td>
+							<input type="text" name="texto" placeholder="Referência">
+						</td>
+					</tr>
+					<td>
+						Estado:
+					</td>
+						<td>
+							<select name="estado">
+							<option value="">&nbsp;</option>
+							<option value="Sp">São Paulo</option>
+							<option value="RJ">Rio de Janeiro</option>
+							<option value="BA">Bahia</option>
+							<option value="Es">Espiríto Santo</option>
+							</select>
+						</td>
+					<tr>
+						<td>Complemento:</td>
+						<td>
+							<input type="text" name="complement">
+						</td>
+					</tr>
+					<td>
+						Pais de Origem:
+					</td>
+						<td>
+							<select name="estado">
+							<option value="">&nbsp;</option>
+							<option value="BR">Brasil</option>
+							<option value="Ar">Argentina</option>
+							<option value="CH">Chile</option>
+							<option value="EQ">Equador</option>
+							</select>
+						</td>
+					<tr>
+						<td>Lugar Nascimento:</td>
+						<td>
+							<input type="text" name="bairro" placeholder="Cidade onde nasceu">
+						</td>
+					</tr>
+				</form>
+			</table>
+		</fieldset>
+	</body>
+</html>
